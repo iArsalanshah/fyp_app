@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollViewPass">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.com.fyp.layouts.signup_pages.signupFormPassenger">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sign Up!"
+        android:id="@+id/textView3"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="with E-Travel"
+        android:id="@+id/textView4"
+        android:layout_below="@id/textView3"
+        android:layout_alignRight="@id/textView3"
+        android:layout_alignEnd="@id/textView3"
+        android:textColor="@color/colorThemeYellow" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextuserNamePassenger"
+        android:layout_marginTop="60dp"
+        android:layout_below="@id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:inputType="textPersonName"
+        android:singleLine="true"
+        android:hint="  Username" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextemailPass"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/editTextuserNamePassenger"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:singleLine="true"
+        android:hint="  Email" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextpwdPass"
+        android:layout_below="@id/editTextemailPass"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:inputType="textVisiblePassword"
+        android:singleLine="true"
+        android:hint="  Password" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextRepwdPassenger"
+        android:layout_below="@id/editTextpwdPass"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:inputType="textPassword"
+        android:layout_marginTop="30dp"
+        android:singleLine="true"
+        android:hint="  Repassword" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextcellNumberPass"
+        android:layout_below="@id/editTextRepwdPassenger"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        android:singleLine="true"
+        android:hint="  Cell Number"
+        android:phoneNumber="false"
+        android:password="false" />
+
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="70dp"
+        android:text="Sign Up"
+        android:id="@+id/btnSignUpPass"
+        android:layout_below="@id/editTextcellNumberPass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textSize="25sp"
+        android:background="@drawable/style_rounded"
+        android:textAllCaps="false"
+        android:textColor="#000000" />
+</RelativeLayout>
+    </ScrollView>

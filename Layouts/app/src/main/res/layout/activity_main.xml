@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="project.com.fyp.layouts.MainActivity"
+    android:background="@color/colorThemeBackground">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login with E-Travel!"
+        android:id="@+id/textView"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/buttonLogin"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/style_rounded" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="center_horizontal">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/rbtnGroup"
+            android:layout_height="match_parent">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="As Passenger"
+                android:id="@+id/radioButtonPassenger"
+                android:checked="true"
+                android:layout_marginRight="20dp"
+                android:textColor="#fefcfc"
+                android:buttonTint="#9f9f9f" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="As Driver"
+                android:id="@+id/radioButtonDriver"
+                android:checked="false"
+                android:textColor="#fefcfc"
+                android:buttonTint="#9f9f9f" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="15dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/buttonSignUp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/style_rounded" />
+
+</LinearLayout>
+
+

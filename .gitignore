@@ -1,4 +1,3 @@
-Layouts/
 cc/
 ccc/
 FYP/
@@ -6,3 +5,7 @@ fyp1/
 testMap/
 timer/
 Urgent_map/
+.idea
+*.iml
+*.ipr
+*.iws

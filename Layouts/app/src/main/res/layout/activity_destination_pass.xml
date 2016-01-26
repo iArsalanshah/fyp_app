@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="project.com.fyp.layouts.passenger_pages.destination_Selection_pass">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/up"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Destination:"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:id="@+id/textView8" />
+        <EditText
+            android:layout_weight="100"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextSearchDestin" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/style_btn_left_rounded"
+            android:text="Search"
+            android:onClick="geoLocate"
+            android:id="@+id/btnSearchDest" />
+    </LinearLayout>
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".map_urgent_show"
+        android:id="@+id/mapSearch"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="fill_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_below="@id/up"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Back"
+            android:layout_weight="1"
+            android:background="@drawable/stylebtnright"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:background="@drawable/stylebtnleft"
+            android:text="Next"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

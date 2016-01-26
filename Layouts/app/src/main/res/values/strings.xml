@@ -1,0 +1,276 @@
+<resources>
+    <string name="app_name">E-Travel</string>
+    <string-array name="town_names">
+        <item></item>
+        <item>Baldia Town</item>
+        <item>Bin Qasim Town</item>
+        <item>Gadap Town</item>
+        <item>Gulberg Town</item>
+        <item>Gulshan Town</item>
+        <item>Jamshed Town</item>
+        <item>Kemari Town</item>
+        <item>Korangi Town</item>
+        <item>Landhi Town</item>
+        <item>Liaqatabad Town</item>
+        <item>Lyari Town</item>
+        <item>Malir Town</item>
+        <item>New Karachi Town</item>
+        <item>North Nazimabad Town</item>
+        <item>Orangi Town</item>
+        <item>Saddar Town</item>
+        <item>Shah Faisal Town</item>
+        <item>SITE Town</item>
+    </string-array>
+<string-array name="empty">
+    <item></item>
+</string-array>
+    <string-array name="uc_Baldia">
+        <item></item>
+        <item>Gulshan-e-Ghazi</item>
+        <item>Ittehad Town</item>
+        <item>Islam Nagar</item>
+        <item>Nai Abadi</item>
+        <item>Saeedabad</item>
+        <item>Muslim Mujahid Colony</item>
+        <item>Muhajir Camp</item>
+        <item>Rasheedabad</item>
+    </string-array>
+
+    <string-array name="uc_bin_qasim">
+        <item></item>
+        <item>Ibrahim Hyderi</item>
+        <item>Rehri</item>
+        <item>Cattle Colony</item>
+        <item>Qaidabad</item>
+        <item>Landhi Colony</item>
+        <item>Gulshan-e-Hadeed</item>
+        <item>Gaghar</item>
+    </string-array>
+
+    <string-array name="uc_gadap">
+        <item></item>
+        <item>Murad Memon Goth</item>
+        <item>Darsano Chana</item>
+        <item>Gadap</item>
+        <item>Gujro</item>
+        <item>Songal</item>
+        <item>Maymarabad</item>
+        <item>Yousuf Goth</item>
+        <item>Manghopir</item>
+    </string-array>
+    
+    <string-array name="uc_gulberg">
+        <item></item>
+        <item>Azizabad</item>
+        <item>Karimabad</item>
+        <item>Aisha Manzil</item>
+        <item>Ancholi</item>
+        <item>Naseerabad</item>
+        <item>Yaseenabad</item>
+        <item>Water Pump</item>
+        <item>Shafiq Mill Colony</item>
+    </string-array>
+    
+    <string-array name="uc_gulshan">
+        <item></item>
+        <item>Delhi Mercantile Society</item>
+        <item>Civic Centre</item>
+        <item>Pir Ilahi Buksh Colony</item>
+        <item>Essa Nagri</item>
+        <item>Gulshan-e-Iqbal</item>
+        <item>Gillani Railway Station</item>
+        <item>Shanti Nagar</item>
+        <item>Jamali Colony</item>
+        <item>Gulshan-e-Iqbal II</item>
+        <item>Pehlwan Goth</item>
+        <item>Matrovil Colony</item>
+        <item>Gulzar-e-Hijri</item>
+        <item>Safooran Goth</item>
+    </string-array>
+
+    <string-array name="uc_jamshed">
+        <item></item>
+        <item>Akhtar Colony</item>
+        <item>Manzoor Colony</item>
+        <item>Azam Basti</item>
+        <item>Chanesar Goth</item>
+        <item>Mahmudabad</item>
+        <item>P.E.C.H.S.</item>
+        <item>P.E.C.H.S. II</item>
+        <item>Jut Line</item>
+        <item>Central Jacob Lines</item>
+        <item>Jamshed Quarters</item>
+        <item>Garden East</item>
+        <item>Soldier Bazar</item>
+        <item>Pakistan Quarters</item>
+    </string-array>
+    
+    <string-array name="uc_kemari">
+        <item></item>
+        <item>Bhutta Village</item>
+        <item>Sultanabad</item>
+        <item>Kiamari</item>
+        <item>Baba Bhit</item>
+        <item>Machar Colony</item>
+        <item>Maripur</item>
+        <item>SherShah</item>
+        <item>Gabo Pat</item>
+    </string-array>
+    
+    <string-array name="uc_korangi">
+        <item></item>
+        <item>Bilal Colony</item>
+        <item>Nasir Colony</item>
+        <item>Chakra Goth</item>
+        <item>Mustafa Taj Colony</item>
+        <item>Hundred Quarters</item>
+        <item>Gulzar Colony</item>
+        <item>Korangi Sector 33</item>
+        <item>Zaman Town</item>
+        <item>Hasrat Mohani Colony</item>
+    </string-array>
+    
+    <string-array name="uc_landhi">
+        <item></item>
+        <item>Muzafarabad</item>
+        <item>Muslimabad</item>
+        <item>Dawood Chowrangi</item>
+        <item>Moinabad</item>
+        <item>Sharafi Goth</item>
+        <item>Bhutto Nagar</item>
+        <item>Khawaja Ajmeer Colony</item>
+        <item>Landhi</item>
+        <item>Awami Colony</item>
+        <item>Burmee Colony</item>
+        <item>Korangi</item>
+        <item>Sherabad</item>
+    </string-array>
+    
+    <string-array name="uc_liaquatabad">
+        <item></item>
+        <item>Rizvia Society (R.C.H.S.)</item>
+        <item>Firdous Colony</item>
+        <item>Super Market</item>
+        <item>Dak Khana</item>
+        <item>Qasimabad</item>
+        <item>Bandhani Colony</item>
+        <item>Sharifabad</item>
+        <item>Commercial Area</item>
+        <item>Mujahid Colony</item>
+        <item>Nazimabad</item>
+        <item>Abbasi Shaheed</item>
+    </string-array>
+
+    <string-array name="uc_lyari">
+        <item></item>
+        <item>Agra Taj Colony</item>
+        <item>Daryaabad</item>
+        <item>Nawabad</item>
+        <item>Khada Memon Society</item>
+        <item>Baghdadi</item>
+        <item>Shah Baig Line</item>
+        <item>Bihar Colony</item>
+        <item>Ragiwara</item>
+        <item>Singo Line</item>
+        <item>Chakiwara</item>
+        <item>Allama Iqbal Colony</item>
+    </string-array>
+    
+    <string-array name="uc_malir">
+        <item></item>
+        <item>Model Colony</item>
+        <item>Kala Board</item>
+        <item>Saudabad</item>
+        <item>Khokhra Par</item>
+        <item>Jafar-e-Tayyar</item>
+        <item>Gharibabad</item>
+        <item>Ghazi Brohi Goth</item>
+    </string-array>
+    
+    <string-array name="uc_new_karachi">
+        <item></item>
+        <item>Kalyana</item>
+        <item>Sir Syed Colony</item>
+        <item>Fatima Jinnah Colony</item>
+        <item>Godhra</item>
+        <item>Abu Zar Ghaffari</item>
+        <item>Hakim Ahsan</item>
+        <item>Madina Colony</item>
+        <item>Faisal Colony</item>
+        <item>Khamiso Goth</item>
+        <item>Mustufa Colony</item>
+        <item>Khawaja Ajmeer Nagri</item>
+        <item>Gulshan-e-Saeed</item>
+        <item>Shah Nawaz Bhutto Colony</item>
+    </string-array>
+    
+    <string-array name="uc_north_nazimabad">
+        <item></item>
+        <item>Paposh Nagar</item>
+        <item>Pahar Ganj</item>
+        <item>Khandu Goth</item>
+        <item>Hyderi</item>
+        <item>Sakhi Hassan</item>
+        <item>Farooq-e-Azam</item>
+        <item>Nusrat Bhutto Colony</item>
+        <item>Shadman Town</item>
+        <item>Buffer Zone</item>
+        <item>Buffer Zone II</item>
+    </string-array>
+    
+    <string-array name="uc_orangi">
+        <item></item>
+        <item>Mominabad</item>
+        <item>Haryana Colony</item>
+        <item>Hanifabad</item>
+        <item>Mohammad Nagar</item>
+        <item>Madina Colony</item>
+        <item>Ghaziabad</item>
+        <item>Chisti Nagar</item>
+        <item>Bilal Colony</item>
+        <item>Iqbal Baloch Colony</item>
+        <item>Gabol Colony</item>
+        <item>Data Nagar</item>
+        <item>Mujahidabad</item>
+        <item>Baloch Goth</item>
+    </string-array>
+    
+    <string-array name="uc_saddar">
+        <item></item>
+        <item>Old Haji Camp</item>
+        <item>Garden</item>
+        <item>Kharadar</item>
+        <item>City Railway Colony</item>
+        <item>Nanak Wara</item>
+        <item>Gazdarabad</item>
+        <item>Millat Nagar/Islam Pura</item>
+        <item>Saddar</item>
+        <item>Civil Line</item>
+        <item>Clifton</item>
+        <item>Clifton</item>
+    </string-array>
+    
+    <string-array name="uc_shah_faisal">
+        <item></item>
+        <item>Natha Khan Goth</item>
+        <item>Pak Sadat Colony</item>
+        <item>Shah Faisal Colony</item>
+        <item>Raita Plot</item>
+        <item>Moria Khan Goth</item>
+        <item>Rafa-e-Aam Society</item>
+        <item>Al-Falah Society</item>
+    </string-array>
+
+    <string-array name="uc_SITE">
+        <item></item>
+        <item>Pak Colony</item>
+        <item>Old Golimar</item>
+        <item>Jahanabad</item>
+        <item>Metrovil</item>
+        <item>Bhawani Chali</item>
+        <item>Frontier Colony</item>
+        <item>Banaras Colony</item>
+        <item>Qasba Colony</item>
+        <item>Islamia Colony</item>
+    </string-array>
+</resources>

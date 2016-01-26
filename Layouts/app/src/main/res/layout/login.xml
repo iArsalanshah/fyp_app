@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/colorThemeBackground"
+    tools:context="project.com.fyp.layouts.login_pages.login">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/editTextemailLogin"
+        android:hint="   Email"
+        android:background="@drawable/edittext_back"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:inputType="textEmailAddress"
+        android:singleLine="true" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:inputType="textPassword"
+        android:layout_marginBottom="30dp"
+        android:ems="10"
+        android:background="@drawable/edittext_back"
+        android:id="@+id/editTextPwdLogin"
+        android:hint=" Password"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        android:singleLine="true" />
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:background="@drawable/style_rounded"
+        android:id="@+id/buttonLoginNext"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Don&apos;t have an account? Create new!"
+        android:id="@+id/tvCreate"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/textview_onlcink_color"
+        android:layout_marginTop="15dp" />
+</LinearLayout>
+

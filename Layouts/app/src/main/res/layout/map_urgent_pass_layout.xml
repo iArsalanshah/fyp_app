@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="project.com.fyp.layouts.passenger_pages.map_urgent_show">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/tvCurrentLocationtext"
+            android:layout_marginTop="17dp"
+            android:text="Current Location:"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="17dp"
+            android:text=""
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".map_urgent_show"
+        android:id="@+id/mapUrgent"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Time Remaining:"
+                android:layout_height="wrap_content" />
+
+            <Chronometer
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/colorThemeYellow"
+                android:layout_height="wrap_content"
+                android:id="@+id/chronometer" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Back"
+            android:background="@drawable/stylebtnright"
+            android:layout_weight="1"
+            android:id="@+id/backButtonID"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Request"
+            android:id="@+id/requestButton"
+            android:background="@drawable/stylebtnleft"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
